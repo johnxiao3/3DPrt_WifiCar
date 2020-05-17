@@ -88,12 +88,10 @@ polyhedron(
 				[carback_L/2-carback_lock_s+carback_lock_w/2,carback_W+carback_lock_d-carback_lockcore_d,carback_connection_h/2+carback_lock_vs/2+carback_lock_h+carback_lockcore_h], 
 				[carback_L/2-carback_lock_s-carback_lock_w/2,carback_W+carback_lock_d-carback_lockcore_d,carback_connection_h/2+carback_lock_vs/2+carback_lock_h+carback_lockcore_h]],
 	   faces=[[0,1,2,3],[5,4,3,2],[0,4,5,1],[0,3,4],[5,2,1]]
-	   )
+	   );
 
 
 translate([carback_L/2+carback_lock_s-carback_lock_w/2,carback_W,carback_connection_h/2-carback_lock_vs/2-carback_lock_h])
 	cube([carback_lock_w,carback_lock_d,carback_lock_h]);
 translate([carback_L/2+carback_lock_s-carback_lock_w/2,carback_W,carback_connection_h/2+carback_lock_vs/2])
 	cube([carback_lock_w,carback_lock_d,carback_lock_h]);
-
-
